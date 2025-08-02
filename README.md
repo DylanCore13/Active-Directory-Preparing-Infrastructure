@@ -15,3 +15,14 @@
 - Windows Server Administration: Installing and configuring the Active Directory Domain Services (AD DS) role on a Windows Server VM, promoting it to a domain controller, and managing its DNS settings.
 
 - Client-Server Connectivity: Troubleshooting network connectivity (ping) and verifying network configurations (ipconfig /all) on a client machine.
+
+
+<h2>Services Used</h2>
+
+- Azure Virtual Machines (VMs): Used to host both the Windows Server 2022 (DC-1) and Windows 10 (Client-1) operating systems.
+
+- Azure Virtual Network (VNet): Provides the isolated and secure network environment for the VMs to communicate.
+
+- Azure Subnets: Logical divisions within the VNet to organize and isolate resources.
+
+- Azure Network Interface Cards (NICs): Components attached to VMs that enable network connectivity, and where static IP addresses are configured.
