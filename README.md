@@ -51,7 +51,36 @@ After that we'll create the Virtual Network, naming it Active-Directory-VNet and
 
 
 
+<img width="976" height="532" alt="image" src="https://github.com/user-attachments/assets/f7fc7087-1974-48a4-b70c-e29926541148" />
 
+
+
+<img width="871" height="473" alt="image" src="https://github.com/user-attachments/assets/4f03421f-f93f-4661-af3f-7803c5b252dc" />
+
+
+<img width="849" height="410" alt="image" src="https://github.com/user-attachments/assets/eec49f6e-a67e-4389-93f5-d01ec365f8ba" />
+
+
+
+<img width="857" height="487" alt="image" src="https://github.com/user-attachments/assets/06dd03cb-f74b-461e-947e-2bd75bfe3a34" />
+
+
+
+
+<img width="808" height="382" alt="image" src="https://github.com/user-attachments/assets/d54a9ccd-9ea6-47f9-970b-d4acb800e185" />
+
+
+
+<img width="1162" height="462" alt="image" src="https://github.com/user-attachments/assets/28061116-00a4-4943-bb48-ea679b45ca6c" />
+
+
+
+
+<img width="1314" height="532" alt="image" src="https://github.com/user-attachments/assets/907d50a9-b884-42ad-8b38-57ea7fde71a5" />
+
+
+
+<img width="1188" height="454" alt="image" src="https://github.com/user-attachments/assets/f47c39cd-08af-42ad-baa6-fe62f89f91ab" />
 
 
 
