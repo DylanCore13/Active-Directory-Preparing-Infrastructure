@@ -26,3 +26,26 @@
 - Azure Subnets: Logical divisions within the VNet to organize and isolate resources.
 
 - Azure Network Interface Cards (NICs): Components attached to VMs that enable network connectivity, and where static IP addresses are configured.
+
+
+
+
+
+<img width="1066" height="477" alt="image" src="https://github.com/user-attachments/assets/5542ed4a-5018-4403-b161-241c3c3d2ce5" />
+
+You'll first start off by creating a resource group and naming it Active-Directory-Lab, and make sure it's in the region US East 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
