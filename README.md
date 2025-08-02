@@ -102,3 +102,5 @@ After that we'll create the Virtual Network, naming it Active-Directory-VNet and
 
 <img width="975" height="526" alt="image" src="https://github.com/user-attachments/assets/ccbfb4b5-b8af-4b9d-9475-8d7b9cf9d85a" />
 
+
+
