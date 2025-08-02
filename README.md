@@ -43,9 +43,10 @@ You'll first start off by creating a resource group and naming it Active-Directo
 </b>
 
 
-After that we'll create the Virtual Machine, naming it Active-Directory-VNet and making sure it's in the Active-Directory-Lab resource group and same region (US East 2)
+After that we'll create the Virtual Network, naming it Active-Directory-VNet and making sure it's in the Active-Directory-Lab resource group and same region (US East 2)
 
-<img width="805" height="518" alt="image" src="https://github.com/user-attachments/assets/f6ce3d19-d65a-4cba-a761-4b184f873f5e" />
+<img width="1006" height="492" alt="image" src="https://github.com/user-attachments/assets/4698192b-65b3-4ea1-a12a-13af1aa62d71" />
+
 
 
 
