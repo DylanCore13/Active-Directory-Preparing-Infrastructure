@@ -84,3 +84,21 @@ After that we'll create the Virtual Network, naming it Active-Directory-VNet and
 
 
 
+
+
+<img width="1211" height="578" alt="image" src="https://github.com/user-attachments/assets/692e92ef-de44-4b69-b8e1-a48a14a35ebc" />
+
+
+<img width="1088" height="480" alt="image" src="https://github.com/user-attachments/assets/e862479f-b198-46dc-a679-4c682bd6dc5f" />
+
+<img width="1139" height="501" alt="image" src="https://github.com/user-attachments/assets/8d772da3-ca16-4913-babf-b212c6d5b8c5" />
+
+
+<img width="846" height="476" alt="image" src="https://github.com/user-attachments/assets/8d8937d3-44b9-42a1-b6e1-8c4861f133c9" />
+
+
+<img width="1239" height="593" alt="image" src="https://github.com/user-attachments/assets/a6823ec8-3778-43d7-bece-5191902d21aa" />
+
+
+<img width="975" height="526" alt="image" src="https://github.com/user-attachments/assets/ccbfb4b5-b8af-4b9d-9475-8d7b9cf9d85a" />
+
