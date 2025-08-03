@@ -96,6 +96,12 @@ Next go to start menu search up run and open it up and search up again "wf.msc" 
 <img width="1211" height="578" alt="image" src="https://github.com/user-attachments/assets/692e92ef-de44-4b69-b8e1-a48a14a35ebc" />
 
 
+Finally we are going change the DNS settings and NIC to point to DC-1 private IP address, so first we'll get DC-1's private address and you'll copy it. From there you go to client-1 VM in Azure by goin ginto the VM's network -> network settings -> and you'll click on the NIC -> DNS servers. It'll show two options, "Inherit from virtual network" or "Custom", you'll click custom and paste the DC-1 private IP address in there.
+
+
+
+
+
 <img width="1088" height="480" alt="image" src="https://github.com/user-attachments/assets/e862479f-b198-46dc-a679-4c682bd6dc5f" />
 
 <img width="1139" height="501" alt="image" src="https://github.com/user-attachments/assets/8d772da3-ca16-4913-babf-b212c6d5b8c5" />
