@@ -110,6 +110,11 @@ Finally we are going change the DNS settings and NIC to point to DC-1 private IP
 <img width="846" height="476" alt="image" src="https://github.com/user-attachments/assets/8d8937d3-44b9-42a1-b6e1-8c4861f133c9" />
 
 
+
+Log in to Client-1 VM and ping DC-1's private IP address, you need open up powershell, type PING and paste DC-1's private IP address. It should work and show a couple of replies, then type "ipconfig /all" it'll show DC-1's information including the private IP address.
+
+
+
 <img width="1239" height="593" alt="image" src="https://github.com/user-attachments/assets/a6823ec8-3778-43d7-bece-5191902d21aa" />
 
 
