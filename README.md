@@ -90,7 +90,7 @@ Once we set that up, we are going to log in to the DC-1 VM using the public IP a
 <img width="1188" height="454" alt="image" src="https://github.com/user-attachments/assets/f47c39cd-08af-42ad-baa6-fe62f89f91ab" />
 
 
-Next go to start menu search up run and open it up and search up again "wf.msc" to open up windows firewall and then we'll disable domain profile, private profile, and public profile firewalls.
+Next go to start menu search up run and open it up and search up again "wf.msc" to open up windows firewall and then we'll disable domain profile, private profile, and public profile firewalls by clicking on windows defender firewall properties and going from there.
 
 
 <img width="1211" height="578" alt="image" src="https://github.com/user-attachments/assets/692e92ef-de44-4b69-b8e1-a48a14a35ebc" />
