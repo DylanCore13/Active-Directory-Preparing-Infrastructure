@@ -49,7 +49,7 @@ After that we'll create the Virtual Network, naming it Active-Directory-VNet and
 
 
 
-For your Virtual Machine, make sure its in the resource group "Active-Directory-Lab", name this VM "DC-1". Also make sure the image is "Windows Server 2022 Datacenter" and as for size anyhting that has 2vcpus. For username and password make sure it's something you'll easily remember. For networking section, make sure the Virtual Network is in the one we created, "Active-Directory-VNet", lastly you create it.
+For your Virtual Machine, make sure its in the resource group "Active-Directory-Lab", name this VM "DC-1". Also make sure the image is "Windows Server 2022 Datacenter" and as for size anything that has 2vcpus. For username and password make sure it's something you'll easily remember. For networking section, make sure the Virtual Network is in the one we created, "Active-Directory-VNet", lastly you create it.
 
 <img width="976" height="532" alt="image" src="https://github.com/user-attachments/assets/f7fc7087-1974-48a4-b70c-e29926541148" />
 
@@ -73,7 +73,7 @@ Now you'll create another virtual machine, this one will be different. It will b
 
 
 
-After VM is created, we'll set the Domain Controller's NIC private IP address to be static, what that means is and reason behind it. When yhou create a virtual machine in Azure they receive a priavte IP address by default. Static means it won't change forever, and dynamic means it'll change if it gets turned off, and we want the IP address to not change because we are going to tell Client-1 to use DC-1 as the DNS server, so we need to manually configure the DNS settings for Client-1 to use the specific IP address.
+After VM is created, we'll set the Domain Controller's NIC private IP address to be static, what that means is and reason behind it. When you create a virtual machine in Azure they receive a priavte IP address by default. Static means it won't change forever, and dynamic means it'll change if it gets turned off, and we want the IP address to not change because we are going to tell Client-1 to use DC-1 as the DNS server, so we need to manually configure the DNS settings for Client-1 to use the specific IP address.
 
 <img width="1162" height="462" alt="image" src="https://github.com/user-attachments/assets/28061116-00a4-4943-bb48-ea679b45ca6c" />
 
@@ -90,13 +90,13 @@ Once we set that up, we are going to log in to the DC-1 VM using the public IP a
 <img width="1188" height="454" alt="image" src="https://github.com/user-attachments/assets/f47c39cd-08af-42ad-baa6-fe62f89f91ab" />
 
 
-Next go to start menu search up run and open it up and search up again "wf.msc" to open up windows firewall and then we'll disable domain profile, private profile, and public profile firewalls by clicking on windows defender firewall properties and going from there.
+Next go to start menu search up "run" and open it up and search up again "wf.msc" to open up windows firewall and then we'll disable domain profile, private profile, and public profile firewalls by clicking on windows defender firewall properties and going from there.
 
 
 <img width="1211" height="578" alt="image" src="https://github.com/user-attachments/assets/692e92ef-de44-4b69-b8e1-a48a14a35ebc" />
 
 
-Finally we are going change the DNS settings and NIC to point to DC-1 private IP address, so first we'll get DC-1's private address and you'll copy it. From there you go to client-1 VM in Azure by goin ginto the VM's network -> network settings -> and you'll click on the NIC -> DNS servers. It'll show two options, "Inherit from virtual network" or "Custom", you'll click custom and paste the DC-1 private IP address in there.
+Finally we are going change the DNS settings and NIC to point to DC-1 private IP address, so first we'll get DC-1's private address and you'll copy it. From there you go to client-1 VM in Azure by going into the VM's network -> network settings -> and you'll click on the NIC -> DNS servers. It'll show two options, "Inherit from virtual network" or "Custom", you'll click custom and paste the DC-1 private IP address in there.
 
 
 
