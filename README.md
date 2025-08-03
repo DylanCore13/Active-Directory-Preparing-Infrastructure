@@ -73,7 +73,7 @@ Now you'll create another virtual machine, this one will be different. It will b
 
 
 
-After VM is created, we'll set the Domain Controller's NIC private IP address to be static, what that means is and reason behind it. When yhou create a virtual machine in Azure they receive a priavte IP address by default. Static means it won't chage forever, and dynamic means it'll change if it gets turned off, and we want the IP address to not change because we are going to tell Client-1 to use DC-1 as the DNS server, so we need to manually configure the DNS settings for Client-1 to use the specific IP address
+After VM is created, we'll set the Domain Controller's NIC private IP address to be static, what that means is and reason behind it. When yhou create a virtual machine in Azure they receive a priavte IP address by default. Static means it won't change forever, and dynamic means it'll change if it gets turned off, and we want the IP address to not change because we are going to tell Client-1 to use DC-1 as the DNS server, so we need to manually configure the DNS settings for Client-1 to use the specific IP address
 
 <img width="1162" height="462" alt="image" src="https://github.com/user-attachments/assets/28061116-00a4-4943-bb48-ea679b45ca6c" />
 
