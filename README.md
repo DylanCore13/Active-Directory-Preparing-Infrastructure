@@ -49,7 +49,7 @@ After that we'll create the Virtual Network, naming it Active-Directory-VNet and
 
 
 
-For your Virtual Machine, make sure its in the resource group "Active-Directory-Lab", name this VM "DC-1"
+For your Virtual Machine, make sure its in the resource group "Active-Directory-Lab", name this VM "DC-1". Also make sure the image is "Windows Server 2022 Datacenter" and as for size anyhting that has 2vcpus. For username and password make sure it's something you'll easily remember. For networking section, make sure the Virtual Network is in the one we created, "Active-Directory-VNet", lastly you create it.
 
 <img width="976" height="532" alt="image" src="https://github.com/user-attachments/assets/f7fc7087-1974-48a4-b70c-e29926541148" />
 
