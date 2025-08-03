@@ -62,6 +62,8 @@ For your Virtual Machine, make sure its in the resource group "Active-Directory-
 
 
 
+Now you'll create another virtual machine, this one will be different. It will be in same active directory lab resource group and you'll name this VM "Client-1", and make sure its in same region as other VM (DC-1). The image for this one will be Windows 10 Pro, and size 2vcpus. Username and password can be the same as the DC-1 to make things easier. Make sure it's in same Active Directory VNet virtual network, finally you'll create it.
+
 <img width="857" height="487" alt="image" src="https://github.com/user-attachments/assets/06dd03cb-f74b-461e-947e-2bd75bfe3a34" />
 
 
